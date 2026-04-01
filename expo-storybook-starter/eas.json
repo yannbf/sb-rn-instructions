@@ -1,0 +1,24 @@
+{
+  "build": {
+    "storybook-android": {
+      "env": {
+        "EXPO_PUBLIC_STORYBOOK_ENABLED": "true",
+        "EXPO_PUBLIC_CHROMATIC": "true"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal"
+    },
+    "storybook-ios": {
+      "env": {
+        "EXPO_PUBLIC_STORYBOOK_ENABLED": "true",
+        "EXPO_PUBLIC_CHROMATIC": "true"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "distribution": "internal"
+    }
+  }
+}

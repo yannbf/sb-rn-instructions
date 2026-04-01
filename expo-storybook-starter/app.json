@@ -1,0 +1,43 @@
+{
+  "name": "expo-storybook-starter",
+  "slug": "expo-storybook-starter",
+  "scheme": "storybook",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "newArchEnabled": true,
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.expostorybookstarter"
+  },
+  "android": {
+    "package": "com.expostorybookstarter",
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "experiments": {
+    "typedRoutes": true
+  },
+  "web": {
+    "favicon": "./assets/favicon.png",
+    "bundler": "metro",
+    "output": "single"
+  },
+  "plugins": [
+    "expo-router",
+    "@react-native-community/datetimepicker"
+  ]
+}
